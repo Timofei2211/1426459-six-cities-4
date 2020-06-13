@@ -1,11 +1,11 @@
 import React from "react";
-import Main from "./Main.jsx";
+import Main from "../main/main.jsx";
 
 const App = (props) => {
   // eslint-disable-next-line react/prop-types
-  const {offersCount} = props;
+  const {offerCount} = props;
   return (
-    <Main offersCount={offersCount}/>
+    <Main offerCount={offerCount}/>
   );
 };
 

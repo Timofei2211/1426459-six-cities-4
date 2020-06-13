@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App.jsx";
+import App from "./components/app/app.jsx";
 
 const settings = {
-  offersCount: 45,
+  offersCount: 48,
 };
 
 ReactDOM.render(
-    <App offersCount = {settings.offersCount}
+    <App offerCount = {settings.offersCount}
     />,
     document.querySelector(`#root`)
 );
